@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:USER
-LIBS:texas_other
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +8,10 @@ LIBS:74xx
 LIBS:analog_switches
 LIBS:texas
 LIBS:audio
-EELAYER 24 0
+LIBS:USER
+LIBS:texas_other
+LIBS:musicman_2EQ-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -251,7 +252,7 @@ U 1 1 5449833A
 P 4700 5150
 F 0 "P2" H 4700 5250 50  0000 C CNN
 F 1 "rv1.1" V 4800 5150 50  0000 C CNN
-F 2 "" H 4700 5150 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4700 5150 60  0001 C CNN
 F 3 "" H 4700 5150 60  0000 C CNN
 	1    4700 5150
 	0    1    1    0   
@@ -262,7 +263,7 @@ U 1 1 54498426
 P 4950 5150
 F 0 "P3" H 4950 5250 50  0000 C CNN
 F 1 "rv1.2" V 5050 5150 50  0000 C CNN
-F 2 "" H 4950 5150 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4950 5150 60  0001 C CNN
 F 3 "" H 4950 5150 60  0000 C CNN
 	1    4950 5150
 	0    1    1    0   
@@ -273,7 +274,7 @@ U 1 1 54498452
 P 5200 5150
 F 0 "P4" H 5200 5250 50  0000 C CNN
 F 1 "rv1.3" V 5300 5150 50  0000 C CNN
-F 2 "" H 5200 5150 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 5200 5150 60  0001 C CNN
 F 3 "" H 5200 5150 60  0000 C CNN
 	1    5200 5150
 	0    1    1    0   
@@ -297,7 +298,7 @@ U 1 1 54499271
 P 7050 3600
 F 0 "P7" H 7050 3700 50  0000 C CNN
 F 1 "out" V 7150 3600 50  0000 C CNN
-F 2 "" H 7050 3600 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7050 3600 60  0001 C CNN
 F 3 "" H 7050 3600 60  0000 C CNN
 	1    7050 3600
 	1    0    0    -1  
@@ -323,7 +324,7 @@ U 1 1 5449A05B
 P 7000 2550
 F 0 "P5" H 7000 2650 50  0000 C CNN
 F 1 "rv2.3" V 7100 2550 50  0000 C CNN
-F 2 "" H 7000 2550 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7000 2550 60  0001 C CNN
 F 3 "" H 7000 2550 60  0000 C CNN
 	1    7000 2550
 	1    0    0    -1  
@@ -334,7 +335,7 @@ U 1 1 5449A0F5
 P 7000 2800
 F 0 "P6" H 7000 2900 50  0000 C CNN
 F 1 "rv2.2" V 7100 2800 50  0000 C CNN
-F 2 "" H 7000 2800 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7000 2800 60  0001 C CNN
 F 3 "" H 7000 2800 60  0000 C CNN
 	1    7000 2800
 	1    0    0    -1  
@@ -347,7 +348,7 @@ U 1 1 5449ABBF
 P 3400 3700
 F 0 "P1" H 3400 3800 50  0000 C CNN
 F 1 "in" V 3500 3700 50  0000 C CNN
-F 2 "" H 3400 3700 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 3400 3700 60  0001 C CNN
 F 3 "" H 3400 3700 60  0000 C CNN
 	1    3400 3700
 	-1   0    0    1   
@@ -452,7 +453,7 @@ U 1 1 5449D063
 P 7750 3950
 F 0 "P8" H 7750 4050 50  0000 C CNN
 F 1 "+9V" V 7850 3950 50  0000 C CNN
-F 2 "" H 7750 3950 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7750 3950 60  0001 C CNN
 F 3 "" H 7750 3950 60  0000 C CNN
 	1    7750 3950
 	1    0    0    -1  
@@ -464,7 +465,7 @@ U 1 1 5449D96D
 P 7750 5150
 F 0 "P9" H 7750 5250 50  0000 C CNN
 F 1 "Gnd" V 7850 5150 50  0000 C CNN
-F 2 "" H 7750 5150 60  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 7750 5150 60  0001 C CNN
 F 3 "" H 7750 5150 60  0000 C CNN
 	1    7750 5150
 	1    0    0    -1  
@@ -517,4 +518,8 @@ Wire Wire Line
 NoConn ~ 7300 2550
 NoConn ~ 7300 2800
 NoConn ~ 5700 3250
+Text Notes 5100 5700 0    60   ~ 0
+Treble
+Text Notes 7700 3000 0    60   ~ 0
+Bass
 $EndSCHEMATC

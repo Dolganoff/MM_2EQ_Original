@@ -1,4 +1,4 @@
-update=23/10/2014 22:37:14
+update=24/10/2014 15:02:34
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,14 +31,14 @@ version=1
 version=1
 LibDir=../Kicad
 [eeschema/libraries]
-LibName1=D:/Work/electronics/Kicad/USER
-LibName2=D:/Work/electronics/Kicad/texas_other
-LibName3=power
-LibName4=device
-LibName5=transistors
-LibName6=conn
-LibName7=linear
-LibName8=74xx
-LibName9=analog_switches
-LibName10=texas
-LibName11=audio
+LibName1=power
+LibName2=device
+LibName3=transistors
+LibName4=conn
+LibName5=linear
+LibName6=74xx
+LibName7=analog_switches
+LibName8=texas
+LibName9=audio
+LibName10=USER
+LibName11=texas_other

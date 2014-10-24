@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-19 BZR 5142)-product   date = 24/10/2014 00:36:39
+Cmp-Mod V01 Created by Cvpcb (2014-10-18 BZR 5203)-product   date = 24/10/2014 15:07:01
 
 BeginCmp
 TimeStamp = /54496F72;
@@ -67,63 +67,63 @@ BeginCmp
 TimeStamp = /5449ABBF;
 Reference = P1;
 ValeurCmp = in;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449833A;
 Reference = P2;
 ValeurCmp = rv1.1;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /54498426;
 Reference = P3;
 ValeurCmp = rv1.2;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /54498452;
 Reference = P4;
 ValeurCmp = rv1.3;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449A05B;
 Reference = P5;
 ValeurCmp = rv2.3;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449A0F5;
 Reference = P6;
 ValeurCmp = rv2.2;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /54499271;
 Reference = P7;
 ValeurCmp = out;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449D063;
 Reference = P8;
 ValeurCmp = +9V;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449D96D;
 Reference = P9;
 ValeurCmp = Gnd;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp

@@ -629,7 +629,7 @@
       (net 3 "Net-(C3-Pad2)"))
   )
 
-  (module Wire_Pads:SolderWirePad_single_0-8mmDrill (layer F.Cu) (tedit 544A53C2) (tstamp 544A5ED1)
+  (module Wire_Pads:SolderWirePad_single_0-8mmDrill (layer F.Cu) (tedit 544A53C2) (tstamp 544A4F75)
     (at 163.195 57.15)
     (path /54498452)
     (fp_text reference P4 (at 0 -2.54) (layer F.SilkS) hide
