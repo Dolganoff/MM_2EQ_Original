@@ -1,4 +1,4 @@
-update=24/10/2014 15:02:34
+update=sam. 01 nov. 2014 21:59:28 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,11 +25,9 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../Kicad
+LibDir=../../../Kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -42,3 +40,5 @@ LibName8=texas
 LibName9=audio
 LibName10=USER
 LibName11=texas_other
+[general]
+version=1
